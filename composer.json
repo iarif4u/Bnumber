@@ -1,0 +1,19 @@
+{
+    "name": "iarif4u/bnumber",
+    "description": "English numbers to bengali numbers",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Arifur Rahman",
+            "email": "iarif4u@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "iarif4u\\bnumbeer\\": "src/"
+        }
+    }
+}
