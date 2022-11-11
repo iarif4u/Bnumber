@@ -8,16 +8,25 @@
         {
             "name": "Md. Arifur Rahman",
             "email": "iarif4u@gmail.com"
+        },
+        {
+            "name": "Joël Gaujard",
+            "email": "j.gaujard@gmail.com",
+            "role": "contributor",
+            "homepage": "https://defro.github.io"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": "^7.0|^8.0"
     },
     "autoload": {
         "psr-4": {
             "iarif4u\\bnumbeer\\": "src/"
-        }
+        },
+        "files": [
+            "src/helper.php"
+        ]
     },
     "extra": {
         "class": "iarif4u\\bnumbeer"
